@@ -2,8 +2,6 @@
 	
 	'use strict';
 
-
-
 	var isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
@@ -31,6 +29,17 @@
 			$('.js-fullheight').css('height', $(window).height());
 			$(window).resize(function(){
 				$('.js-fullheight').css('height', $(window).height());
+			});
+		}
+
+	};
+
+	var halfHeight = function() {
+
+		if ( !isMobile.any() ) {
+			$('.js-halfHeight').css('height', $(document).height());
+			$(document).resize(function(){
+				$('.js-halfHeight').css('height', $(document).height());
 			});
 		}
 
@@ -289,6 +298,7 @@
 	// Document on load.
 	$(function(){
 		fullHeight();
+		halfHeight();
 		counter();
 		counterWayPoint();
 		contentWayPoint();

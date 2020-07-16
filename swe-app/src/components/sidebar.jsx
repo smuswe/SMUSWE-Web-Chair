@@ -16,8 +16,10 @@ export default class Sidebar extends Component {
               <div id="navbar" className="collapse">
                 <ul>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
+                  <li><a href="#about" data-nav-section="about">About Us</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">News</a></li>
-                  <li><a href="#about" data-nav-section="about">Meet Our Chapter</a></li>
+                  <li><a href="#team" data-nav-section="team">Meet Our Chapter</a></li>
+                  <li><a href="#sponsors" data-nav-section="sponsors">Our Sponsors</a></li>
                 </ul>
               </div>
             </nav>
@@ -29,10 +31,10 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Made with <i className="icon-heart" aria-hidden="true" /> and <i className="icon-beer" aria-hidden="true"></i><br></br>
+                 <i className="icon-heart" aria-hidden="true" /> <i className="icon-heart" aria-hidden="true" /> <i className="icon-heart" aria-hidden="true" /> <br></br>
               </small></p>
               <p><small>
-                Something coming soon !!
+                SMU SWE 2020-2021
               </small></p>
             </div>
           </aside>
