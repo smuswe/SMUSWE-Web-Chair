@@ -6,6 +6,7 @@ import About from './components/about'
 import News from './components/timeline'
 import Team from './components/team'
 import Sponsor from './components/sponsors'
+import Blog from './components/blog'
 
 class App extends Component {
   render() {
@@ -16,9 +17,11 @@ class App extends Component {
           <div id="colorlib-main">
             <Introduction></Introduction>
             <About></About>
+            <Blog></Blog>
             <News></News>
             <Team></Team>
             <Sponsor></Sponsor>
+            
           </div>
         </div>
       </div>
