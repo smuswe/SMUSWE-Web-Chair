@@ -8,7 +8,7 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-            <a href="index.html"><div href="index.html" className="author-img" style={{backgroundImage: 'url(images/SWE_Logo_SMU.png)'}} /></a>
+              <a href="index.html"><div href="index.html" className="author-img" style={{ backgroundImage: 'url(images/SWE_Logo_SMU.png)' }} /></a>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
@@ -20,6 +20,13 @@ export default class Sidebar extends Component {
                   <li><a href="#blog" data-nav-section="blog">Past Events</a></li>
                   <li><a href="#team" data-nav-section="team">Meet Our Chapter</a></li>
                   <li><a href="#sponsors" data-nav-section="sponsors">Our Sponsors</a></li>
+                  <div class="btn-group dropright">
+                    <button type="button" class="btn btn-primary btn-learn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Important Links</button>
+                    <div class="dropdown-menu">
+                      <a class="btn btn-secondary btn-learn dropdown-item" href="https://forms.office.com/Pages/ResponsePage.aspx?id=Lg9FD08zrUuoXJrfdgUdi2k4SeMphwNDnP9zJUYjeTdUNVRaME9MVE5WNjhNVjBJV1hEQ0ZWWEJRUS4u" target="_blank" rel="noopener noreferrer">Resume Book Form</a>
+                      <a class="btn btn-secondary btn-learn dropdown-item" href="https://forms.office.com/Pages/ResponsePage.aspx?id=Lg9FD08zrUuoXJrfdgUdi2k4SeMphwNDnP9zJUYjeTdUNVU4SkUwVDkxWExSSTBUU1dDNjU4RFdWQy4u" target="_blank" rel="noopener noreferrer">Attendance Form</a>
+                    </div>
+                  </div>
                 </ul>
               </div>
             </nav>
@@ -35,7 +42,7 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-              <a href="index.html"><div href="index.html" className="logo-img" style={{backgroundImage: 'url(images/smulogoblack.png)'}} /></a>              </small></p>
+                <a href="index.html"><div href="index.html" className="logo-img" style={{ backgroundImage: 'url(images/smulogoblack.png)' }} /></a>              </small></p>
             </div>
           </aside>
         </div>

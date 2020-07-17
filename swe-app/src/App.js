@@ -21,7 +21,6 @@ class App extends Component {
             <Blog></Blog>
             <Team></Team>
             <Sponsor></Sponsor>
-            
           </div>
         </div>
       </div>

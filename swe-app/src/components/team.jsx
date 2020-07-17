@@ -4,7 +4,7 @@ export default class Team extends Component {
     render() {
         return (
             <div>
-                <section className="colorlib-about">
+                <section className="colorlib-about" data-section="team">
                     <div className="colorlib-narrow-content">
                         <div className="row">
                             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -46,7 +46,7 @@ export default class Team extends Component {
                             <div className="project" style={{ backgroundImage: 'url(images/maria.jpg)' }}>
                                 <div className="desc">
                                     <div className="con">
-                                    <h3><a href="work.html">Maria Heredia</a></h3>
+                                        <h3><a href="work.html">Maria Heredia</a></h3>
                                         <span>VP External Affairs</span>
                                         <span>B.S. Computer Science </span>
                                         <span>mbheredia@smu.edu</span>
@@ -61,7 +61,7 @@ export default class Team extends Component {
                             <div className="project" style={{ backgroundImage: 'url(images/liana.jpg)' }}>
                                 <div className="desc">
                                     <div className="con">
-                                    <h3><a href="work.html">Liana Allen</a></h3>
+                                        <h3><a href="work.html">Liana Allen</a></h3>
                                         <span>Treasurer</span>
                                         <span>B.S. Mechanical Engineering, Biomedical Specialization  </span>
                                         <span>loallen@smu.edu</span>
@@ -76,7 +76,7 @@ export default class Team extends Component {
                             <div className="project" style={{ backgroundImage: 'url(images/caitlin.jpg)' }}>
                                 <div className="desc">
                                     <div className="con">
-                                    <h3><a href="work.html">Caitlin Kernander</a></h3>
+                                        <h3><a href="work.html">Caitlin Kernander</a></h3>
                                         <span>Secretary</span>
                                         <span>B.S. Mechanical Engineering and Mathematics  </span>
                                         <span>ckernander@smu.edu</span>
@@ -88,70 +88,10 @@ export default class Team extends Component {
                             </div>
                         </div>
                         <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                            <div className="project" style={{ backgroundImage: 'url(images/fidelia.png)' }}>
-                                <div className="desc">
-                                    <div className="con">
-                                    <h3><a href="work.html">Fidelia Nawar</a></h3>
-                                        <span>Special Events Co-Chair</span>
-                                        <span>B.S. Computer Science </span>
-                                        <span>fnawar@smu.edu</span>
-                                        <p className="icon">
-                                            <span><a href="#"><i className="icon-mail" /></a></span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                            <div className="project" style={{ backgroundImage: 'url(images/katie.png)' }}>
-                                <div className="desc">
-                                    <div className="con">
-                                    <h3><a href="work.html">Katie Nguyen</a></h3>
-                                        <span>Special Events Co-Chair</span>
-                                        <span>B.S. Mechanical Engineering </span>
-                                        <span>nguyenkh@smu.edu</span>
-                                        <p className="icon">
-                                            <span><a href="#"><i className="icon-mail" /></a></span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                            <div className="project" style={{ backgroundImage: 'url(images/faith.jpg)' }}>
-                                <div className="desc">
-                                    <div className="con">
-                                    <h3><a href="work.html">Faith Fang</a></h3>
-                                        <span>Mentoring Chair</span>
-                                        <span>B.S. Mechanical Engineering </span>
-                                        <span>faithf@smu.edu</span>
-                                        <p className="icon">
-                                            <span><a href="#"><i className="icon-mail" /></a></span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-                            <div className="project" style={{ backgroundImage: 'url(images/gabs.jpg)' }}>
-                                <div className="desc">
-                                    <div className="con">
-                                    <h3><a href="work.html">Gabs DiLiegro</a></h3>
-                                        <span>Conference Chair</span>
-                                        <span>B.S. Electrical Engineering </span>
-                                        <span>gdiliegro@smu.edu</span>
-                                        <p className="icon">
-                                            <span><a href="#"><i className="icon-mail" /></a></span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
                             <div className="project" style={{ backgroundImage: 'url(images/annalise.jpg)' }}>
                                 <div className="desc">
                                     <div className="con">
-                                    <h3><a href="work.html">Annalise Sumpon</a></h3>
+                                        <h3><a href="work.html">Annalise Sumpon</a></h3>
                                         <span>Web Chair</span>
                                         <span>B.S. Management Science </span>
                                         <span>asumpon@smu.edu</span>
@@ -163,10 +103,70 @@ export default class Team extends Component {
                             </div>
                         </div>
                         <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                            <div className="project" style={{ backgroundImage: 'url(images/gabs.jpg)' }}>
+                                <div className="desc">
+                                    <div className="con">
+                                        <h3><a href="work.html">Gabs DiLiegro</a></h3>
+                                        <span>Conference Chair</span>
+                                        <span>B.S. Electrical Engineering </span>
+                                        <span>gdiliegro@smu.edu</span>
+                                        <p className="icon">
+                                            <span><a href="#"><i className="icon-mail" /></a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                            <div className="project" style={{ backgroundImage: 'url(images/katie.png)' }}>
+                                <div className="desc">
+                                    <div className="con">
+                                        <h3><a href="work.html">Katie Nguyen</a></h3>
+                                        <span>Special Events Co-Chair</span>
+                                        <span>B.S. Mechanical Engineering </span>
+                                        <span>nguyenkh@smu.edu</span>
+                                        <p className="icon">
+                                            <span><a href="#"><i className="icon-mail" /></a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                            <div className="project" style={{ backgroundImage: 'url(images/fidelia.png)' }}>
+                                <div className="desc">
+                                    <div className="con">
+                                        <h3><a href="work.html">Fidelia Nawar</a></h3>
+                                        <span>Special Events Co-Chair</span>
+                                        <span>B.S. Computer Science </span>
+                                        <span>fnawar@smu.edu</span>
+                                        <p className="icon">
+                                            <span><a href="#"><i className="icon-mail" /></a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
+                            <div className="project" style={{ backgroundImage: 'url(images/faith.jpg)' }}>
+                                <div className="desc">
+                                    <div className="con">
+                                        <h3><a href="work.html">Faith Fang</a></h3>
+                                        <span>Mentoring Chair</span>
+                                        <span>B.S. Mechanical Engineering </span>
+                                        <span>faithf@smu.edu</span>
+                                        <p className="icon">
+                                            <span><a href="#"><i className="icon-mail" /></a></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
                             <div className="project" style={{ backgroundImage: 'url(images/maxey.jpg)' }}>
                                 <div className="desc">
                                     <div className="con">
-                                    <h3><a href="work.html">Maxey Duncan</a></h3>
+                                        <h3><a href="work.html">Maxey Duncan</a></h3>
                                         <span>Fundraising Chair</span>
                                         <span>B.S. Management Science </span>
                                         <span>mlduncan@smu.edu</span>
@@ -181,7 +181,7 @@ export default class Team extends Component {
                             <div className="project" style={{ backgroundImage: 'url(images/camila.png)' }}>
                                 <div className="desc">
                                     <div className="con">
-                                    <h3><a href="work.html">Camila Giron</a></h3>
+                                        <h3><a href="work.html">Camila Giron</a></h3>
                                         <span>Membership Chair</span>
                                         <span>B.S. Civil Engineering</span>
                                         <span>cgiron@smu.edu</span>
@@ -192,7 +192,7 @@ export default class Team extends Component {
                                 </div>
                             </div>
                         </div>
-{/*                         
+                        {/*                         
                         <div className="row row-pt-md">
                             <div className="col-md-4 text-center animate-box">
                                 <div className="services color-4">
