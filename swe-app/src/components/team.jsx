@@ -4,14 +4,12 @@ export default class Team extends Component {
     render() {
         return (
             <div>
-                <section className="colorlib-about" data-section="team">
-                </section>
                 <section className="colorlib-about">
                     <div className="colorlib-narrow-content">
                         <div className="row">
                             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span className="heading-meta">Meet Our Chapter</span>
-                                <h2 className="colorlib-heading">Our Executive Team and Officers</h2>
+                                <span className="heading-meta">Our Chapter</span>
+                                <h2 className="colorlib-heading">Meet our 2020-2021 Executive Team and Officers</h2>
                             </div>
                         </div>
                         <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">

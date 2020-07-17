@@ -8,13 +8,12 @@ export default class Sidebar extends Component {
           <nav href="#navbar" className="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i /></nav>
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
-              <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
-              <h1 id="colorlib-logo"><a href="index.html">SMU SWE</a></h1>
-              <span className="email"><i className="icon-mail"></i> smu.swe@smu.edu</span>
+            <a href="index.html"><div href="index.html" className="author-img" style={{backgroundImage: 'url(images/SWE_Logo_SMU.png)'}} /></a>
             </div>
             <nav id="colorlib-main-menu" role="navigation" className="navbar">
               <div id="navbar" className="collapse">
                 <ul>
+                  <br></br>
                   <li className="active"><a href="#home" data-nav-section="home">Introduction</a></li>
                   <li><a href="#about" data-nav-section="about">About Us</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">News/Upcoming Events</a></li>
@@ -24,6 +23,10 @@ export default class Sidebar extends Component {
                 </ul>
               </div>
             </nav>
+            <div className="text-center">
+              <span className="email"><i className="icon-mail"></i> smu.swe@smu.edu</span>
+            </div>
+            <br></br>
             <nav id="colorlib-main-menu">
               <ul>
                 <li><a href="https://www.facebook.com/groups/SMUSWE/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
@@ -32,11 +35,7 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                 <i className="icon-heart" aria-hidden="true" /> <i className="icon-heart" aria-hidden="true" /> <i className="icon-heart" aria-hidden="true" /> <br></br>
-              </small></p>
-              <p><small>
-                SMU SWE 2020-2021
-              </small></p>
+              <a href="index.html"><div href="index.html" className="logo-img" style={{backgroundImage: 'url(images/smulogoblack.png)'}} /></a>              </small></p>
             </div>
           </aside>
         </div>
