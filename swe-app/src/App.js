@@ -7,8 +7,11 @@ import News from './components/timeline'
 import Team from './components/team'
 import Sponsor from './components/sponsors'
 import Blog from './components/blog'
-
 class App extends Component {
+  // GET https://graph.instagram.com/{media-id}
+  // ?fields={smuswe}
+  // &access_token={access-token}
+
   render() {
     return (
       <div id="colorlib-page">
