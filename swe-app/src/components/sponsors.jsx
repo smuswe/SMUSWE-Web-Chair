@@ -13,12 +13,12 @@ export default class Sponsors extends Component {
                                         <div className="about-desc">
                                             <span className="heading-meta">2020-2021</span>
                                             <h2 className="colorlib-heading">Our Sponsors</h2>
-                                                <div className="row">
-                                                        <a className="response-img"><img src="images/att-logo.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                                        <a className="response-img"><img src="images/credera.png" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                                        <a className="response-img"><img src="images/medtronic-logo_orig.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                                        <a className="response-img"><img src="images/raytheon1_orig.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
-                                                </div> 
+                                            <div className="row">
+                                                <a className="response-img"><img src="images/att-logo.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                                                <a className="response-img"><img src="images/credera.png" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                                                <a className="response-img"><img src="images/medtronic-logo_orig.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                                                <a className="response-img"><img src="images/raytheon1_orig.jpg" className="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com" /></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
