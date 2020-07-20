@@ -18,7 +18,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
-                        <i className="icon-pen2" />
+                        <i className="icon-star" />
                       </div>
                       <div className="timeline-label">
                         <h2>She Networks, She Wins <span> February 25, 2020, 6 - 8 pm</span></h2>
@@ -34,7 +34,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
-                        <i className="icon-pen2" />
+                        <i className="icon-star" />
                       </div>
                       <div className="timeline-label">
                         <h2>General Meetings <span> Monthly</span></h2>
@@ -45,7 +45,7 @@ export default class Timeline extends Component {
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
-                        <i className="icon-pen2" />
+                        <i className="icon-star" />
                       </div>
                       <div className="timeline-label">
                         <h2>Mentoring Events <span> tbd </span></h2>

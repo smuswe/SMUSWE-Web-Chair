@@ -98,25 +98,22 @@ figure {
     height: 150px;
     margin: 0 auto;
     margin-bottom: 30px;}
-    /* -webkit-border-radius: 50%;
+    
+  #colorlib-aside .logo-img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 95px;}
+
+  #colorlib-aside .team-img {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
-    border-radius: 50%; } */
-    #colorlib-aside .logo-img {
-      width: 100px;
-      height: 100px;
-      margin: auto;
-      margin-top: 135px;}
-
-    #colorlib-aside .team-img {
-      width: 600px;
-      height: 600px;
-      margin: 0 auto;
-      margin-bottom: 30px;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      border-radius: 50%; }
+    border-radius: 50%; }
     
   #colorlib-aside .email {
     display: block;

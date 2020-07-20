@@ -1,6 +1,6 @@
 {
-  "short_name": "Portfolio app",
-  "name": "Portfolio app made with react as part of 'weekend projects' initiative",
+  "short_name": "SMU SWE app",
+  "name": "SMU SWE app made with react for 2020-2021",
   "icons": [
     {
       "src": "favicon.ico",
