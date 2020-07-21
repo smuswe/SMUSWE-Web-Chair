@@ -15,9 +15,9 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           
-                          <h1>Welcome to SMU SWE</h1>
+                          <h1><mark>Welcome to SMU SWE</mark></h1>
                           
-                          <p><a className="btn btn-primary btn-learn" href="http://smu.swe.org" target="_blank" rel="noopener noreferrer">Visit SMU.SWE.ORG <i className="icon-monitor" /></a></p>
+                          {/* <p><a className="btn btn-primary btn-learn" href="http://smu.swe.org" target="_blank" rel="noopener noreferrer">Visit SMU.SWE.ORG <i className="icon-monitor" /></a></p> */}
                         </div>
                       </div>
                     </div>
@@ -31,7 +31,7 @@ export default class Introduction extends Component {
                     <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
                       <div className="slider-text-inner">
                         <div className="desc">
-                          <h1>The <b></b>Hart of Lyle!</h1>
+                          <h1><mark>The <b></b>Hart of Lyle</mark></h1>
                           {/* <p><a className="btn btn-primary btn-learn" href="https://www.smu.edu/lyle" target="_blank" rel="noopener noreferrer">Visit Lyle <i className="icon-briefcase3" /></a></p> */}
                         </div>
                       </div>
