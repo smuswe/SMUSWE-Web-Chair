@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SMU-SWE-Web-Chair/precache-manifest.26729d9af8e4dff775ff5e50597c76df.js"
+  "/SMU-SWE-Web-Chair/precache-manifest.85281e4ba89d712a3a31492f79322f76.js"
 );
 
 self.addEventListener('message', (event) => {

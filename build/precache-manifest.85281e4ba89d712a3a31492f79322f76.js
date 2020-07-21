@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4fb9d6cacb2489d49a46f26b1f17312",
+    "revision": "cf6073470c82edbd1a5fdca345fe17b7",
     "url": "/SMU-SWE-Web-Chair/index.html"
   },
   {
-    "revision": "c1d44fdb360c1085a0aa",
+    "revision": "721c77964cc36df808e1",
     "url": "/SMU-SWE-Web-Chair/static/css/main.f5de08f0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SMU-SWE-Web-Chair/static/js/2.ee0bbc28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c1d44fdb360c1085a0aa",
-    "url": "/SMU-SWE-Web-Chair/static/js/main.27831ecd.chunk.js"
+    "revision": "721c77964cc36df808e1",
+    "url": "/SMU-SWE-Web-Chair/static/js/main.41c3fea9.chunk.js"
   },
   {
     "revision": "05104907b43bfa4b21e2",
