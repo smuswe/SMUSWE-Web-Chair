@@ -534,8 +534,9 @@ small,
 
 mark,
 .mark {
-  background-color: #DBC554;
+  background-color: #FFF;
   padding: .2em;
+  opacity: 50%;
 }
 
 .text-left {
