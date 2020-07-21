@@ -79,7 +79,7 @@ h1 {
 mark {
   background: #FFF;
   color: #000;
-  opacity: 50%;
+  opacity: 90%;
 }
 
 small {
@@ -537,7 +537,7 @@ mark,
 .mark {
   background-color: #FFF;
   padding: .2em;
-  opacity: 50%;
+  opacity: 90%;
 }
 
 .text-left {
@@ -2583,7 +2583,6 @@ select[multiple].input-lg,
     font-size: 12px;
   }
 }
-
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -2658,7 +2657,6 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   background-image: none;
-    position: absolute;
 }
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
   background-color: #fff;
@@ -3292,7 +3290,8 @@ tbody.collapse.in {
   width: 100%;
 }
 .btn-group-justified > .btn-group .dropdown-menu {
-  left: auto;
+ 
+  position: fixed;
 }
 
 [data-toggle="buttons"] > .btn input[type="radio"],

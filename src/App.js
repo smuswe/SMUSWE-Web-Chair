@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
+import Home from './components/introduction'
 import About from './components/about'
 import News from './components/timeline'
 import Team from './components/team'
@@ -15,11 +15,11 @@ class App extends Component {
         <div id="container-wrap">
           <Sidebar></Sidebar>
           <div id="colorlib-main">
-            <Introduction></Introduction>
+            <Home></Home>
             <About></About>
+            <Team></Team>
             <News></News>
             <Blog></Blog>
-            <Team></Team>
             <Sponsor></Sponsor>
           </div>
         </div>
