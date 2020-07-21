@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SMU-SWE-Web-Chair/static/css/main.f5de08f0.chunk.css",
+    "main.js": "/SMU-SWE-Web-Chair/static/js/main.27831ecd.chunk.js",
+    "main.js.map": "/SMU-SWE-Web-Chair/static/js/main.27831ecd.chunk.js.map",
+    "runtime-main.js": "/SMU-SWE-Web-Chair/static/js/runtime-main.1ff29343.js",
+    "runtime-main.js.map": "/SMU-SWE-Web-Chair/static/js/runtime-main.1ff29343.js.map",
+    "static/js/2.ee0bbc28.chunk.js": "/SMU-SWE-Web-Chair/static/js/2.ee0bbc28.chunk.js",
+    "static/js/2.ee0bbc28.chunk.js.map": "/SMU-SWE-Web-Chair/static/js/2.ee0bbc28.chunk.js.map",
+    "index.html": "/SMU-SWE-Web-Chair/index.html",
+    "precache-manifest.26729d9af8e4dff775ff5e50597c76df.js": "/SMU-SWE-Web-Chair/precache-manifest.26729d9af8e4dff775ff5e50597c76df.js",
+    "service-worker.js": "/SMU-SWE-Web-Chair/service-worker.js",
+    "static/css/main.f5de08f0.chunk.css.map": "/SMU-SWE-Web-Chair/static/css/main.f5de08f0.chunk.css.map",
+    "static/js/2.ee0bbc28.chunk.js.LICENSE.txt": "/SMU-SWE-Web-Chair/static/js/2.ee0bbc28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ff29343.js",
+    "static/js/2.ee0bbc28.chunk.js",
+    "static/css/main.f5de08f0.chunk.css",
+    "static/js/main.27831ecd.chunk.js"
+  ]
+}
