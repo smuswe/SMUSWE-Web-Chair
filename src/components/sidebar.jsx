@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Dropdown from 'react-bootstrap/Dropdown'
 
 export default class Sidebar extends Component {
   render() {
@@ -18,7 +19,7 @@ export default class Sidebar extends Component {
                   <li><a href="#about" data-nav-section="about">About Us</a></li>
                   <li><a href="#timeline" data-nav-section="timeline">News/Upcoming Events</a></li>
                   <li><a href="#blog" data-nav-section="blog">Past Events</a></li>
-                  <li><a href="#team" data-nav-section="team">Meet Our Chapter</a></li>
+                  <li><a href="#team" data-nav-section="team">Our Chapter</a></li>
                   <li><a href="#sponsors" data-nav-section="sponsors">Our Sponsors</a></li>
 
                 </ul>
@@ -26,26 +27,29 @@ export default class Sidebar extends Component {
               </div>
             </nav>
             <div className="text-center">
-              <div class="btn-group dropright">
-                <button type="button" class="btn btn-primary btn-learn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Important Links</button>
-                <div class="dropdown-menu">
-                  <a class="btn btn-secondary btn-learn dropdown-item" href="https://forms.office.com/Pages/ResponsePage.aspx?id=Lg9FD08zrUuoXJrfdgUdi2k4SeMphwNDnP9zJUYjeTdUNVRaME9MVE5WNjhNVjBJV1hEQ0ZWWEJRUS4u" target="_blank" rel="noopener noreferrer">Resume Book Form</a>
-                  <a class="btn btn-secondary btn-learn dropdown-item" href="https://forms.office.com/Pages/ResponsePage.aspx?id=Lg9FD08zrUuoXJrfdgUdi2k4SeMphwNDnP9zJUYjeTdUNVU4SkUwVDkxWExSSTBUU1dDNjU4RFdWQy4u" target="_blank" rel="noopener noreferrer">Attendance Form</a>
-                </div>
-              </div>
+              <Dropdown>
+                <Dropdown.Toggle class="btn btn-primary">Important Links</Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <div className="text-center"><Dropdown.Item href="https://forms.office.com/Pages/ResponsePage.aspx?id=Lg9FD08zrUuoXJrfdgUdi2k4SeMphwNDnP9zJUYjeTdUNVRaME9MVE5WNjhNVjBJV1hEQ0ZWWEJRUS4u" target="_blank" rel="noopener noreferrer"> Resume Book Form</Dropdown.Item></div>
+                  <div className="text-center"><Dropdown.Item href="https://forms.office.com/Pages/ResponsePage.aspx?id=Lg9FD08zrUuoXJrfdgUdi2k4SeMphwNDnP9zJUYjeTdUNVU4SkUwVDkxWExSSTBUU1dDNjU4RFdWQy4u" target="_blank" rel="noopener noreferrer">Attendance Form</Dropdown.Item></div>
+                </Dropdown.Menu>
+              </Dropdown>
+
               <br></br>
-              <span className="email"><i className="icon-mail"></i> smu.swe@smu.edu</span>
-            </div>
-            <br></br>
-            <nav id="colorlib-main-menu">
-              <ul>
-                <li><a href="https://www.facebook.com/groups/SMUSWE/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
-                <li><a href="https://www.instagram.com/smuswe/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
-              </ul>
-            </nav>
-            <div className="colorlib-footer">
-              <p><small>
-                <a href="index.html"><div href="index.html" className="logo-img" style={{ backgroundImage: 'url(images/smulogoblack.png)' }} /></a>              </small></p>
+              <nav id="colorlib-main-menu">
+                <a class="colorlib-aside">CONTACT US</a>
+                <span className="email"><i className="icon-mail"></i> smu.swe@smu.edu</span>
+                <br></br>
+                <ul>
+                  <li><a href="https://www.facebook.com/groups/SMUSWE/" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
+                  <li><a href="https://www.instagram.com/smuswe/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
+                </ul>
+              </nav>
+              <div className="colorlib-footer">
+                <p><small>
+                  <a href="index.html"><div href="index.html" className="logo-img" style={{ backgroundImage: 'url(images/smulogoblack.png)' }} /></a>              </small></p>
+              </div>
             </div>
           </aside>
         </div>

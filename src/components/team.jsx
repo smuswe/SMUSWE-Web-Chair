@@ -8,7 +8,7 @@ export default class Team extends Component {
                     <div className="colorlib-narrow-content">
                         <div className="row">
                             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                                <span className="heading-meta">Our Chapter</span>
+                                <span className="heading-meta">Our Leadership</span>
                                 <h2 className="colorlib-heading">Meet our 2020-2021 Executive Team and Officers</h2>
                             </div>
                         </div>
